@@ -1,0 +1,132 @@
+body{
+    background-color: #f4f3ee;
+}
+.section{
+    display:flex;
+    justify-content: center;
+    
+}
+#card{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+}
+#card1, #card2{
+    border:solid 2px #12181b;
+    margin: 10px;
+    padding:15px 10px;
+    border-radius:15px;
+    background-color: #f2f5ef;
+}
+
+h1{
+    color:#344e41;
+}
+h2{
+    color:#6b705c;
+   
+}
+h3{
+    color:#52796f;
+  
+}
+.button{
+    background-color: #445a65;
+    color:#b7fbc6;
+    border:none;
+    border-radius:10px;
+    padding:10px;
+     text-decoration:none;
+}
+h1, h2{
+    font-family: "Sumana", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h3, .button{
+      font-family: "Koh Santepheap", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.button:hover{
+    background-color: hsl(200, 20%, 9%);
+    font-size:0.9rem;
+}
+
+span{
+  background-image: url(./svg/line.svg);
+background-repeat: no-repeat;
+ background-position-y: 20px;
+background-position-x:8px;
+  
+}
+.svg{
+    height:50px;
+    width:50px;
+   margin:auto;
+    position: relative;
+    top:-2rem;
+    left:-2.9rem;
+}
+.svg2{
+ margin:auto;
+ height:100px;
+ width:100px;
+ position:relative;
+ 
+}
+.heading2{
+    margin-bottom:0;
+    margin-top:0;
+}
+.search-container {
+     display: flex;
+    justify-content: center;
+    
+ }
+
+ .search-bar {
+     width: 300px;
+    padding:30px;
+     border-radius: 5px;
+     border:none;
+     
+}
+
+.recipes{
+    margin:2rem;
+    display: grid;
+    grid-template-columns: 100% ;
+    grid-template-rows: 0.2fr auto auto;
+
+    border:solid #344e41 2px;
+    border-radius: 13px;
+}
+.recipeIns{
+    border-top:solid 2px #344e41;
+  
+}
+.recipeIns, .list{
+    display:flex;
+    justify-content:flex-start;
+    padding-left:1rem;
+    flex-wrap:wrap;
+}
+
+.recipeName{
+    display:flex;
+    justify-content: center;
+}
+.headings{
+   font-family: "Sumana", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: none;
+  padding-right: 2rem;
+  color:#6b705c;
+}
+
+li{
+    padding:1rem;
+   
+}
