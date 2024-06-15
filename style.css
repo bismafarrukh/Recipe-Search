@@ -127,6 +127,8 @@ background-position-x:8px;
 }
 
 li{
-    padding:1rem;
-   
+    padding-right:2rem;
+    padding-top:2rem;
+   list-style-type:circle;
 }
+

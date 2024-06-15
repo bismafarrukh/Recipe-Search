@@ -7,6 +7,7 @@ const list=document.querySelector('.list');
 
 
 
+
 form.addEventListener('submit', async function(e){
     e.preventDefault();
    let input=search.value;
@@ -25,8 +26,12 @@ form.addEventListener('submit', async function(e){
             ingredientItem.innerText = ingredientName;
             list.appendChild(ingredientItem);
         }
-     
   }  
 });
 
 
+const ingredientDecor = list.addEventListener("click", function(event){
+            const clickedItem=event.target;
+            const currentDecoration = clickedItem.style.textDecoration;  
+           clickedItem.style.textDecoration = currentDecoration === 'line-through' ? 'none' : 'line-through';
+        })
